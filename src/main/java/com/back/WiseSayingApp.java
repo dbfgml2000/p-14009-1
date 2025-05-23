@@ -38,6 +38,11 @@ public class WiseSayingApp {
                 case "목록":
                     System.out.println("번호 / 작가 / 명언");
                     System.out.println("----------------------");
+
+                    if(list.isEmpty()){
+                        break;
+                    }
+
                     for (int i = list.size() - 1; i >= 0; i--) {
                         list.get(i).printInfo();
                     }
