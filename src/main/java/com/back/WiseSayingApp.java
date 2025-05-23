@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class WiseSayingApp {
-    public static void main(String[] args) {
+    public void run() {
         System.out.println("== 명언 앱 ==");
 
         Scanner scanner = new Scanner(System.in);

@@ -34,4 +34,5 @@ public class WiseSaying {
     public void printInfo() {
         System.out.println(id + " / " + author + " / " + content);
     }
+
 }
